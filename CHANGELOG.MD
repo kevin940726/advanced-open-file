@@ -1,7 +1,15 @@
+0.9.2 (Pending)
+===============
+
+* Added event emitter, `onDidOpenFile`, and `onDidCreateFile` for other packages
+  to detect when files are opened.
+
+
 0.9.1 (September 4 2015)
 ========================
 
 * Update description and README and publish to update the registry.
+
 
 0.9.0 (September 4 2015)
 ========================
