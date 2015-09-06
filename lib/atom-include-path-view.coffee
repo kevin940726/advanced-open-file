@@ -272,8 +272,8 @@ class AdvancedFileView extends View
       @openOrCreate(@miniEditor.getText())
 
   openOrCreate: (inputPath) ->
-    activePath = atom.workspace.getActiveTextEditor()?.getPath()
-    inputPath = path.relative(activePath, inputPath)
+    activeFilePath = atom.workspace.getActivePaneItem()?.buffer.file?.path
+    inputPath = path.relative(path.dirname(activeFilePath), inputPath)
 
     if editor = atom.workspace.getActiveTextEditor()
         editor.insertText(inputPath)
