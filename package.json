@@ -1,10 +1,9 @@
 {
   "name": "atom-include-path",
   "main": "./lib/atom-include-path-view",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Include path string in Atom easily.",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "atom-include-path:toggle"
   },
