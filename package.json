@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "atom-include-path:toggle"
   },
-  "repository": "https://github.com/atom/atom-include-path",
+  "repository": "https://github.com/kevin940726/atom-include-path",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
