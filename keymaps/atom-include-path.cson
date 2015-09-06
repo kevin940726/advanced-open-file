@@ -1,0 +1,33 @@
+# Keybindings require three things to be fully defined: A selector that is
+# matched against the focused element, the keystroke and the command to
+# execute.
+#
+# Below is a basic keybinding which registers on all platforms by applying to
+# the root workspace element.
+
+# For more detailed documentation see
+# https://atom.io/docs/latest/advanced/keymaps
+'.platform-darwin atom-workspace':
+  'alt-cmd-i': 'atom-include-path:toggle'
+
+'.platform-win32 atom-workspace, .platform-linux atom-workspace':
+  'ctrl-alt-i': 'atom-include-path:toggle'
+
+'.advanced-open-file atom-text-editor':
+  'tab': 'atom-include-path:autocomplete'
+  'up': 'atom-include-path:move-cursor-up'
+  'down': 'atom-include-path:move-cursor-down'
+
+  # Emacs-style movement
+  'ctrl-p': 'atom-include-path:move-cursor-up'
+  'ctrl-n': 'atom-include-path:move-cursor-down'
+
+  # Alternative movement keys
+  'ctrl-i': 'atom-include-path:move-cursor-up'
+  'ctrl-k': 'atom-include-path:move-cursor-down'
+
+'.platform-darwin .advanced-open-file atom-text-editor':
+  'cmd-z': 'atom-include-path:undo'
+
+'.platform-win32 .advanced-open-file atom-text-editor, .platform-linux .advanced-open-file atom-text-editor':
+  'ctrl-z': 'atom-include-path:undo'
