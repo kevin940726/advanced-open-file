@@ -4,4 +4,4 @@ Original fork from [advanced-open-file](https://github.com/Osmose/advanced-open-
 
 A simple plugin to let you include the relative path string into your code.
 
-`cmd-alt-i`: toggle atom-include-path.
+`cmd-shift-i`: toggle atom-include-path.

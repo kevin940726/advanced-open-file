@@ -8,10 +8,10 @@
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
 '.platform-darwin atom-workspace':
-  'alt-cmd-i': 'atom-include-path:toggle'
+  'shift-cmd-i': 'atom-include-path:toggle'
 
 '.platform-win32 atom-workspace, .platform-linux atom-workspace':
-  'ctrl-alt-i': 'atom-include-path:toggle'
+  'ctrl-shift-i': 'atom-include-path:toggle'
 
 '.advanced-open-file atom-text-editor':
   'tab': 'atom-include-path:autocomplete'

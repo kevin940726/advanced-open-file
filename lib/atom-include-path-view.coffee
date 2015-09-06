@@ -167,7 +167,7 @@ class AdvancedFileView extends View
 
         files.forEach (filename) =>
           fragment = input.substr(input.lastIndexOf(path.sep) + 1, input.length)
-          caseSensitive = atom.config.get "advanced-open-file.caseSensitiveAutoCompletion"
+          caseSensitive = atom.config.get "atom-include-path.caseSensitiveAutoCompletion"
 
           if not caseSensitive
             fragment = fragment.toLowerCase()
@@ -226,7 +226,7 @@ class AdvancedFileView extends View
     if @detaching
       return
 
-    if atom.config.get "advanced-open-file.helmDirSwitch"
+    if atom.config.get "atom-include-path.helmDirSwitch"
       text = @miniEditor.getText()
       if text.endsWith path.sep + path.sep
         @updatePath getRoot(text), text[...-1]
