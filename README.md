@@ -1,5 +1,7 @@
 # atom-include-path package
 
-A short description of your package.
+Original fork from [advanced-open-file](https://github.com/Osmose/advanced-open-file) by [Osmose](https://github.com/Osmose/).
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+A simple plugin to let you include the relative path string into your code.
+
+`cmd-alt-i`: toggle atom-include-path.
