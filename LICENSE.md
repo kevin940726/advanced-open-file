@@ -1,4 +1,6 @@
-Copyright (c) 2015 <Your name here>
+Original portions of advanced-new-file copyright (c) 2014 Peter Toth
+Other portions of advanced-open-file copyright (c) 2015 Michael Kelly.
+All other portions copyright (c) 2015 Kai Hao
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

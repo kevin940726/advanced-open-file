@@ -1,0 +1,42 @@
+.advanced-open-file {
+    display: flex;
+    flex-direction: column;
+
+    .icon-file-add,
+    .icon-file-directory-create {
+        padding-left: 10px;
+    }
+
+    .list-group {
+        overflow: auto;
+        flex: 2;
+        position: relative;
+    }
+
+    .list-item {
+        padding: 0 @component-padding;
+
+        .add-project-folder {
+            float: right;
+            color: @text-color-subtle;
+            margin-right: -12px;
+
+            &:hover {
+                color: @text-color-highlight;
+                cursor: pointer;
+            }
+        }
+
+        .filename {
+            margin: 0;
+        }
+
+        .selected {
+            background: @background-color-selected;
+        }
+
+        &:hover {
+            background: @background-color-highlight;
+        }
+    }
+}

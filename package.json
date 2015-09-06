@@ -1,7 +1,7 @@
 {
   "name": "atom-include-path",
   "main": "./lib/atom-include-path-view",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A short description of your package",
   "keywords": [
   ],
@@ -14,5 +14,9 @@
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
+    "atom-space-pen-views": "^2.0.3",
+    "mkdirp": "^0.3.5",
+    "osenv": "^0.1.3",
+    "touch": "0.0.3"
   }
 }
